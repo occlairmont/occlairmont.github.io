@@ -6,60 +6,160 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <title>Octavia Clairmont's Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        .textwrap {
+            float: left;
+            margin: 1em
+        }
+    </style>
+    <title>Octavia Clairmont</title>
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Octavia Clairmont</a>
+        <a class="navbar-brand" href="#">Hello there!</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="#">About<span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="#">Projects</a>
-                <a class="nav-item nav-link" href="#">Contact</a>
-                <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                <a class="nav-item nav-link" href="#about">About</a>
+                <a class="nav-item nav-link" href="#projects">Projects</a>
+                <a class="nav-item nav-link" href="#resume">Resume</a>
+                <a class="nav-item nav-link" href="#contact">Contact</a>
             </div>
         </div>
     </nav>
-    <div class="row">
-        <div class="col-md-7">
-            <h1>Hi, nice to meet you.</h1>
-        </div>
-        <div class="col-md-5" id="about-pic">
-            <img src="https://images.unsplash.com/photo-1591662814124-bfbdb8806154?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=385&q=80" alt="">
-        </div>
-    </div>
-
-    <hr>
-    
-    <div class="about">
-        <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+    <div class="jumbotron">
+        <h1 class="display-4">Hello, My name's Octavia</h1>
+        <p class="lead">and I'm a Junior Web Developer.</p>
+        <hr class="my-4">
+        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+        <p class="lead">
+            <a class="btn btn-primary btn-lg" href="#" role="button"><img src="assets/linkedin.png"></a>
+            <a class="btn btn-primary btn-lg" href="#" role="button"><img src="assets/github.png"></a>
         </p>
-        <div class="row" id="interests">
+    </div>
+    <div class="container">
+        <div id="about">
             <div>
-               <img src="" alt=""> 
+                <img src="assets/edited_selfie.jpg" alt="profile pic" id="about-pic" class=".textwrap">
             </div>
-            <div>
-               <img src="" alt=""> 
-             </div>
-            <div>
-               <img src="" alt=""> 
+            <p id="about-text">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
+                into
+                electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
+                release of
+                Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like
+                Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and
+                typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when
+                an
+                unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not
+                only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It
+                was
+                popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more
+                recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
+
+            <h3>Other interests</h3>
+            <div class="row" id="interests">
+                <div class="col-md-4" id="icons">
+                    <img src="assets/camera.png" alt="camera">
+                    <h5>Photography</h5>
+                </div>
+                <div class="col-md-4" id="icons">
+                    <img src="assets/paint-palette.png" alt="paint-palette">
+                    <h5>Art</h5>
+                </div>
+                <div class="col-md-4" id="icons">
+                    <img src="assets/caligraphy.png" alt="language">
+                    <h5>Language and culture</h5>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="projects">
+
+        <hr>
+
+
+        <div class="row" id="projects">
+            <div class="col-md">
+                <h2>My Projects</h2>
+            </div>
+        </div>
+        <div class="row" id="projects">
+            <div class="col-md">
+                <div id="card">
+                    <h4>CSS Creature</h4>
+                    <img src="" alt="">
+                </div>
+            </div>
+            <div class="col-md">
+                <div id="card">
+                    <h4>Static Layout</h4>
+                    <img src="" alt="">
+                </div>
+            </div>
+            <div class="col-md">
+                <div id="card">
+                    <h4>API Challenge</h4>
+                    <img src="" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="row" id="projects">
+            <div class="col-md-4 .offset-md-2">
+                <div id="card">
+                    <h4>Coming Soon</h4>
+                    <img src="" alt="">
+                </div>
+            </div>
+            <div class="col-md-4 .offset-md-2">
+                <div id="card">
+                    <h4>Coming Soon</h4>
+                    <img src="" alt="">
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
         <div id="resume">
+            <p>If you want to see more, feel free to check out my resume.</p> <button type="button" class="btn btn-link"
+                a href="assets/Octavia_Clairmont_resume.pdf" target="blank">DOWNLOAD</button>
+        </div>
 
+        <hr>
+
+        <h3>Have questions? Shoot me a message down below.</h3>
+        <div class="col" id="contact">
+            <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8"
+                action="https://formspree.io/occlairmont@gmail.com" method="post">
+                <fieldset id="fs-frm-inputs">
+                    <label for="full-name">Full Name</label>
+                    <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+                    <label for="email-address">Email Address</label>
+                    <input type="email" name="_replyto" id="email-address" placeholder="email@domain.com" required="">
+                    <label for="message">Message</label>
+                    <textarea rows="5" class="" name="message" id="message" placeholder="" required=""></textarea>
+                    <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+                    <input type="submit" value="Submit">
+                </fieldset>
+            </form>
         </div>
     </div>
-    <div class="contact">
-
-    </div>
+    <footer>
+        <p id="footer-title">&copy 2020 Website by Octavia Clairmont</p>
+        <span>Photo by <a
+                href="https://unsplash.com/@anniespratt?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Annie
+                Spratt</a> on <a
+                href="/s/photos/texture?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+        <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a
+                href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+    </footer>
 </body>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
