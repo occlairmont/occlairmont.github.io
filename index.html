@@ -33,13 +33,12 @@
         </div>
     </nav>
     <div class="jumbotron">
-        <h1 class="display-4">Hello, My name's Octavia</h1>
-        <p class="lead">and I'm a Junior Web Developer.</p>
+        <h1 class="display-4">Octavia Clairmont</h1>
+        <p>Junior Web Developer</p>
         <hr class="my-4">
-        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
         <p class="lead">
-            <a class="btn btn-primary btn-lg" href="#" role="button"><img src="assets/linkedin.png"></a>
-            <a class="btn btn-primary btn-lg" href="#" role="button"><img src="assets/github.png"></a>
+            <a class="btn" href="https://www.linkedin.com/in/octavia-clairmont-9181585b/" target="blank"><img src="assets/linkedin.png"></a>
+            <a class="btn" href="https://github.com/occlairmont" target="blank"><img src="assets/github.png"></a>
         </p>
     </div>
     <div class="container">
@@ -93,20 +92,26 @@
         <div class="row" id="projects">
             <div class="col-md">
                 <div id="card">
-                    <h4>CSS Creature</h4>
-                    <img src="" alt="">
+                    <a href="https://codepen.io/Avia86/full/dyYwBrg">
+                        <h4>CSS Creature</h4>
+                        <img src="assets/owl.png" alt="owl">
+                    </a>
                 </div>
             </div>
             <div class="col-md">
                 <div id="card">
-                    <h4>Static Layout</h4>
-                    <img src="" alt="">
+                    <a href="https://occlairmont.github.io/staticLayout-goldefa/">
+                        <h4>Static Layout</h4>
+                        <img src="assets/netflix.png" alt="netflix">
+                    </a>
                 </div>
             </div>
             <div class="col-md">
                 <div id="card">
-                    <h4>API Challenge</h4>
-                    <img src="" alt="">
+                    <a href="https://oc-ghibliapi.firebaseapp.com/">
+                        <h4>API Challenge</h4>
+                        <img src="assets/studio-ghibli.png" alt="totoro">
+                    </a>
                 </div>
             </div>
         </div>
@@ -114,13 +119,13 @@
             <div class="col-md-4 .offset-md-2">
                 <div id="card">
                     <h4>Coming Soon</h4>
-                    <img src="" alt="">
+                    <img src="assets/clock.png" alt="clock">
                 </div>
             </div>
             <div class="col-md-4 .offset-md-2">
                 <div id="card">
                     <h4>Coming Soon</h4>
-                    <img src="" alt="">
+                    <img src="assets/clock.png" alt="clock">
                 </div>
             </div>
         </div>
@@ -128,26 +133,33 @@
         <hr>
 
         <div id="resume">
-            <p>If you want to see more, feel free to check out my resume.</p> <button type="button" class="btn btn-link"><a href="assets/Octavia_Clairmont_resume.pdf" target="blank">DOWNLOAD</a></button>
+            <p>If you want to see more, feel free to check out my resume.</p> <button type="button"
+                class="btn btn-link"><a href="assets/Octavia_Clairmont_resume.pdf" target="blank">DOWNLOAD</a></button>
         </div>
 
         <hr>
 
         <h3>Have questions? Shoot me a message down below.</h3>
-        <div class="col" id="contact">
-            <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8"
-                action="https://formspree.io/occlairmont@gmail.com" method="post">
-                <fieldset id="fs-frm-inputs">
-                    <label for="full-name">Full Name</label>
-                    <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
-                    <label for="email-address">Email Address</label>
-                    <input type="email" name="_replyto" id="email-address" placeholder="email@domain.com" required="">
-                    <label for="message">Message</label>
-                    <textarea rows="5" class="" name="message" id="message" placeholder="" required=""></textarea>
-                    <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
-                    <input type="submit" value="Submit">
-                </fieldset>
-            </form>
+        <div id="contact">
+            <div class="container">
+                <div class="row formRow">
+                    <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8"
+                        action="https://formspree.io/occlairmont@gmail.com" method="post">
+                        <fieldset id="fs-frm-inputs">
+                            <label for="full-name">Full Name</label>
+                            <input type="text" name="name" id="full-name" placeholder="First and Last" required="" class="inputField">
+                            <label for="email-address">Email Address</label>
+                            <input type="email" name="_replyto" id="email-address" placeholder="email@domain.com"
+                                required="" class="inputField">
+                            <label for="message">Message</label>
+                            <textarea rows="5" class="inputField" name="message" id="message" placeholder=""
+                                required=""></textarea>
+                            <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+                            <input type="submit" value="Submit">
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
         </div>
     </div>
     <footer>
