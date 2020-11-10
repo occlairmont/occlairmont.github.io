@@ -1,10 +1,10 @@
-body{
+body {
     margin: 0;
     background: url('https://images.unsplash.com/photo-1528458909336-e7a0adfed0a5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1545&q=80') no-repeat center fixed;
     background-size: cover;
 }
 
-.navbar-brand{
+.navbar-brand {
     font-family: Quicksand, Arial, Helvetica, sans-serif;
 }
 
@@ -12,41 +12,52 @@ body{
     background-image: url('./assets/grass_sun.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
-    height: 83vh;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height: 100%;
     text-align: center;
     padding-top: 11em;
 }
 
-@font-face{
+@font-face {
     font-family: Quicksand;
     src: url(assets/Quicksand-VariableFont_wght.ttf);
 }
 
-.display-3{
+.display-3 {
     padding: 1em;
     text-align: center;
 }
 
-#profile-pic{
+#intro {
+    display: flex;
+    justify-content: space-around;
+}
+/* #pic-sec {
+    display: flex;
+    /* justify-content: center; */
+} */
+
+#profile-pic {
     width: 20em;
     height: 33em;
     border-radius: 1em;
 }
 
-#about{
+#about {
     margin: 3em;
     background: rgb(84, 100, 72, 0.4);
     border-radius: 2em;
 }
 
 #about-pic {
-    width: 13em;
-    height: 23em;
-    border: .15em solid grey;
-    border-radius: 2%;
-    margin: 2em 1em 0em 3em;
-    text-align: center;
-    float: left;    
+    max-width: 100%;
+    height: auto;
+    border: .05em solid grey;
+    border-radius: 1%;
+    margin: 2em;
 }
 
 p{
@@ -54,8 +65,8 @@ p{
 }
 
 #about-text{
-    padding: 2em 3em 1em 3em;
-    text-align: justify;
+    padding: 2em;
+    text-align: left;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -69,26 +80,25 @@ h4{
 }
 
 #interests{
-    margin: 2em;
-    padding: 2em 3em 1em 4em;
+    padding: 2em 3em 1em 2em;
 }
 
-#icons{
+#icons {
     text-align: center;
 }
 
-h5{
-    padding: 1em;
+h5 {
+    padding: .65em;
     font-family: Quicksand, Arial, Helvetica, sans-serif;
 }
 
-h3{
+h3 {
     text-align: center;
     font-family: Quicksand, Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
 
-h2{
+h2 {
     text-align: center;
     font-family: Quicksand, Arial, Helvetica, sans-serif;
     font-weight: bold;
@@ -96,14 +106,15 @@ h2{
     padding-top: .5em;
 }
 
-#card{
+#card {
     text-align: center;
-    border: .15em solid grey;
+    border: .05em solid grey;
     border-radius: 1em;
     padding: .5em;
+    margin-bottom: .5em;
 }
 
-.btn{
+.btn {
     border: .05em solid grey;
     background-color: #E0E0CE;
     color: rgb(46, 44, 44);
@@ -119,36 +130,45 @@ a {
     color: #9D2F38;
 }
 
-a:hover{
+a:hover {
     color:  rgb(84, 100, 72, 0.8);
 }
 
-#contact{
-    display: flex;
-    flex-direction: column;
+#contact {
     height: 70vh;
     margin-top:15px;
-    padding-left: 14em;
 }
 
-.inputField{
+.label {
+    margin: 4px 0;
+
+}
+
+.inputField {
     width: 49vw;
 }
 
-#fs-frm-inputs{
-    width: 10em;
-    height: 10em;
-    margin: auto;
-    padding-top: 1em;
-    display: block;
+#fs-frm {
+    display: flex;
     justify-content: center;
 }
 
-#footer-title{
+#fs-frm-inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 1em;
+}
+ #submit {
+     width: 6em;
+     margin-top: .5em;
+ }
+
+#footer-title {
     font-size: small;
 }
 
-footer{
+footer {
     font-size: small;
     padding-top: 2em;
     text-align: center;
