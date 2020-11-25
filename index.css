@@ -68,7 +68,7 @@ p{
 }
 
 #about-text{
-    padding: 0em 1em 0em 1em;
+    padding: 0em 1.5em 0em 1em;
     text-align: center;
     font-family: Quicksand, Arial, Helvetica, sans-serif;
     margin: 1em 1em;
@@ -81,8 +81,8 @@ p{
 
 
 #interests{
-    padding: 2em;
-    margin: 5px;
+    padding-top: 2em;
+    margin: 5px 5px 5px 0px;
     justify-content: center;
 }
 
@@ -115,6 +115,7 @@ h5 {
 h4{
     font-family: Quicksand, Arial, Helvetica, sans-serif;
     margin-top: 1em;
+    margin-right: 1em;
     padding-top: 1.25em;
     font-weight: bold;
     text-align: center;
