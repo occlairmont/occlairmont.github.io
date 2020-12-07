@@ -146,6 +146,9 @@ h2 {
     border-bottom: .05em solid grey;
     padding: .5em;
     margin-bottom: .5em;
+    width: 100%;
+    height: auto;
+    /* object-fit:scale-down; */
 }
 
 .btn {
